@@ -1,3 +1,0 @@
-# Onboarding Checklist
-
-Essential items for new members to complete.
