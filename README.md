@@ -1,2 +1,3 @@
-# legacy-grove-codex
-Council-grade protocols for interfacing with LEGACY GROVE CODEX LLC and TASH
+# Comprehensive Guide for LEGACY GROVE CODEX LLC
+
+This document outlines the key protocols and directives for the organization.
