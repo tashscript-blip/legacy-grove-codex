@@ -7,11 +7,11 @@ We invite you to the LEGACY GROVE CODEX LLC, a sacred space of innovation and re
 
 This repository contains key documents that guide our collective journey. Please explore the following:
 - [LICENSE](LICENSE)
-- [CONTRIBUTING.md](CONTRIBUTING.md)
-- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
-- [ONBOARDING_CHECKLIST.md](ONBOARDING_CHECKLIST.md)
-- [SYMBOLIC_VOCABULARY.md](SYMBOLIC_VOCABULARY.md)
-- [GOVERNANCE_MODEL.md](GOVERNANCE_MODEL.md)
-- [Ceremonial-and-Operational.md](Ceremonial-and-Operational.md)
+- [CONTRIBUTING](CONTRIBUTING)
+- [CODE_OF_CONDUCT](CODE_OF_CONDUCT)
+- [ONBOARDING_CHECKLIST](ONBOARDING_CHECKLIST)
+- [SYMBOLIC_VOCABULARY](SYMBOLIC_VOCABULARY)
+- [GOVERNANCE_MODEL](GOVERNANCE_MODEL)
+- [Ceremonial-and-Operational](Ceremonial-and-Operational)
 
 Let us walk together in harmony and purpose.
