@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;600;800&display=swap');
 
 :root {
+    --bg-deep: #030406;
     --bg-color: #030406;
-    --surface-color: rgba(15, 18, 22, 0.75);
-    --surface-border: rgba(255, 255, 255, 0.06);
+    --surface-color: rgba(3, 4, 6, 0.7);
+    --surface-border: rgba(212, 175, 55, 0.3);
     --primary-gold: #D4AF37;
     --primary-gold-dim: rgba(212, 175, 55, 0.3);
     --accent-green: #0DF1B3;
+    --accent-neon: #0DF1B3;
     --accent-green-dim: rgba(13, 241, 179, 0.15);
-    --text-main: #FFFFFF;
+    --text-main: #F5F5F5;
     --text-muted: #A1A5AB;
     --font-heading: 'Outfit', sans-serif;
     --font-body: 'Inter', sans-serif;
@@ -533,4 +535,28 @@ html { scroll-behavior: smooth; }
     .hamburger { display: flex; }
     .portal-btn { display: none; }
     .input-group { flex-direction: column; }
+}
+
+/* Glass panel */
+.glass-panel {
+    background: rgba(3,4,6,0.7);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(212,175,55,0.3);
+    border-radius: 12px;
+    transition: box-shadow 0.3s ease;
+}
+.glass-panel:hover {
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);
+}
+
+/* Scroll reveals */
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.scroll-reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
